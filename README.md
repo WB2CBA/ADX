@@ -1,8 +1,8 @@
 ADX is an Arduino based Digital Modes Transceiver.
 
 - ADX - is abbreviation for Arduino Digital Xceiver.
-- 
-ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules. 
+
+- ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules. 
 It can work on 80m, 40m, 30m,20m, 17m and 15m bands and can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR. 
 No 12m and 10m bands as it stretches RX IC CD2003GP to it’s limits as it is designed for AM band reception. Well I can’t complain for a 30 cents receiver IC! 
 
