@@ -7,7 +7,7 @@ It can work on 80m, 40m, 30m,20m, 17m and 15m bands and can operate on four of t
 No 12m and 10m bands as it stretches RX IC CD2003GP to it’s limits as it is designed for AM band reception. Well I can’t complain for a 30 cents receiver IC! 
 
 
-My goal in this project is to design a simple HF Rig optimized for operating on Digital modes:
+My goal with this project is to design a simple HF Transceiver optimized for operating on Digital modes:
 -	Simple to procure – meaning not effected by chip shortage
 -	Simple to build – 2 modules, 2 IC’s and 4 Mosfets!
 -	Simple to setup and tune – One simple calibration procedure is all needed.
