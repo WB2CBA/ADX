@@ -14,4 +14,4 @@ My goal with this project is to design a simple HF Transceiver optimized for ope
 -	Simple to operate – Plug in ADX MIC to soundcard MIC input and ADX SPK to PC soundcard speaker input and we are good to go with any digital modes Software.
 -	Dirt Cheap – Costs less than 25$ to get all parts and PCB if we exclude ridiculous shipping costs!
 
-- For ease of following which parts to solder while building Main board of ADX, Intercative BOM File - ibom_ADX.html file is a great help. Just run that file on Microsoft edge and follow each highlighted component and solder one by one. This intercative BOM was prepared by Gilles DELPECH - F1BFU. Thank you Gilles!
+- For ease of following which parts to solder while building Main board of ADX, Intercative BOM File - ibom_ADX.html file is a great help. Just run that file on Microsoft edge and follow each highlighted component and solder one by one. This interactive BOM was prepared by Gilles DELPECH - F1BFU. Thank you Gilles!
