@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ESP-WSPR-PCB-TTL-PA_FINAL-rescue)(type Legacy)(uri "${KIPRJMOD}/ESP WSPR PCB TTL PA_FINAL-rescue.lib")(options "")(descr ""))
+  (lib (name QRPLABS_LPF)(type Legacy)(uri "${KIPRJMOD}/QRPLABS LPF/QRPLABS_LPF.lib")(options "")(descr ""))
+  (lib (name DIGI_UNO_TX-rescue)(type Legacy)(uri ${KIPRJMOD}/DIGI_UNO_TX-rescue.lib)(options "")(descr ""))
+  (lib (name DTX-rescue)(type Legacy)(uri ${KIPRJMOD}/DTX-rescue.lib)(options "")(descr ""))
+  (lib (name ADX-rescue)(type Legacy)(uri ${KIPRJMOD}/ADX-rescue.lib)(options "")(descr ""))
+)

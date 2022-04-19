@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name VFO_footprint)(type KiCad)(uri ${KIPRJMOD}/VFO_footprint.pretty)(options "")(descr ""))
+  (lib (name VFO)(type KiCad)(uri ${KIPRJMOD}/VFO)(options "")(descr ""))
+  (lib (name "QRPLABS LPF")(type KiCad)(uri "${KIPRJMOD}/QRPLABS LPF")(options "")(descr ""))
+  (lib (name QRP_LPF)(type KiCad)(uri "${KIPRJMOD}/QRPLABS LPF/QRP_LPF.pretty")(options "")(descr ""))
+  (lib (name SMA_EDGE)(type KiCad)(uri ${KIPRJMOD}/SMA_EDGE.pretty)(options "")(descr ""))
+)
