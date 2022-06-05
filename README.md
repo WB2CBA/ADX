@@ -1,8 +1,8 @@
-**************************** IMPORTANT NOTE ON NT7S SI5351 LIBRARY ********************
+**************************** IMPORTANT NOTE ON NT7S SI5351 LIBRARY ******************
 Please install SI5351 Library that is in ADX Github under ADX Firmware! 
 Or use Etherkit SI5351 Library Version 2.1.3
 ADX firmware is compatible with only Etherkit SI5351 Library 2.1.3 version.
-***************************************************************************************
+
 
 
 ADX is an Arduino based Digital Modes Transceiver.
