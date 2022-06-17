@@ -4,7 +4,8 @@ Please install SI5351 Library that is in ADX Github under ADX Firmware!
 Or use Etherkit SI5351 Library Version 2.1.3. 
 ADX firmware is compatible with only Etherkit SI5351 Library version 2.1.3.
 ____________________________________________________________________________
-
+UPDATE: 06/17/2022
+I've added a new folder named as ADX Experimental Firmwares. This folder is for ADX Firmwares developed by ADX enthusiasts for ADX. Please feel free to upload these firmwares to your ADX and try them to have a different and advanced flavor of experience such as CAT control and experimental CW with ADX. 
 
 
 ADX is an Arduino based Digital Modes Transceiver.
