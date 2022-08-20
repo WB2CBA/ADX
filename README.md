@@ -23,5 +23,6 @@ My goal with this project is to design a simple HF Transceiver optimized for ope
 
 - For ease of following which parts to solder while building Main board of ADX, Interactive BOM File - ibom_ADX.html file is a great help. Just run that file on Microsoft edge and follow each highlighted component and solder one by one. This interactive BOM was prepared by Gilles DELPECH - F1BFU. Thank you Gilles!
 
-If you would like to support my work:
+If you like my designs and would like to support my work:
 https://www.buymeacoffee.com/wb2cba
+
