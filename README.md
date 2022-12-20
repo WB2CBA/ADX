@@ -1,3 +1,15 @@
+ADX - Arduino Digital Modes Transceiver UPDATE (20 December 2022):
+
+- ADX Build Manual V1.2 Released.
+
+- Calibration Procedure Changed to protect EEPROM from R/W waer out during calibration.  
+
+- Caution Note on SI5351 Library.
+
+- ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.
+
+- ADX_QUAD_V1.2 Firmware relaese with new calibration procedure and 10m/28Mhz band addition.
+
 IMPORTANT NOTE ON NT7S SI5351 LIBRARY VERSIONS   
 
 Please install SI5351 Library that is in ADX Github under ADX Firmware! 
@@ -10,9 +22,7 @@ ADX is an Arduino based Digital Modes Transceiver.
 - ADX - is abbreviation for Arduino Digital Xceiver.
 
 - ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules. 
-It can work on 80m, 40m, 30m,20m, 17m and 15m bands and can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR. 
-No 12m and 10m bands as it stretches RX IC CD2003GP to it’s limits as it is designed for AM band reception. Well I can’t complain for a 30 cents receiver IC! 
-
+It can work on 80m, 40m, 30m,20m, 17m, 15m and 10m bands and can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR. 
 
 My goal with this project is to design a simple HF Transceiver optimized for operating on Digital modes:
 -	Simple to procure – meaning not effected by chip shortage
