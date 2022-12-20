@@ -2,7 +2,7 @@ ADX - Arduino Digital Modes Transceiver UPDATE (20 December 2022):
 
 - ADX Build Manual V1.2 Released.
 
-- Calibration Procedure Changed to protect EEPROM from R/W waer out during calibration.  
+- Calibration Procedure Changed to protect EEPROM from R/W wear out during calibration.  
 
 - Caution Note on SI5351 Library.
 
