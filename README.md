@@ -24,7 +24,7 @@ ADX is an Arduino based Digital Modes Transceiver.
 - ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules. 
 It can work on 80m, 40m, 30m,20m, 17m, 15m and 10m bands and can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR.
 
-- ADX now supports CAT via emulating TS2000 with 115200 bps,8,1 Serial comm. CAT controls Band and mode changes.
+- ADX now supports CAT via emulating KENWOOD TS2000 HF Transceiver with 115200 bps,8,1 Serial comm. CAT controls Band and Mode changes.
 
 My goal with this project is to design a simple HF Transceiver optimized for operating on Digital modes:
 -	Simple to procure – meaning not effected by chip shortage
