@@ -1,14 +1,14 @@
-ADX - Arduino Digital Modes Transceiver UPDATE (20 December 2022):
+ADX - Arduino Digital Modes Transceiver UPDATE (07 April 2023):
 
-- ADX Build Manual V1.2 Released.
+- ADX Build Manual V1.3 Released.
 
-- Calibration Procedure Changed to protect EEPROM from R/W wear out during calibration.  
+- Calibration Procedure Changed to protect EEPROM from R/W wear out during calibration. (20 December 2023) 
 
 - Caution Note on SI5351 Library.
 
-- ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.
+- ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.(20 December 2023)
 
-- ADX_QUAD_V1.2 Firmware relaese with new calibration procedure and 10m/28Mhz band addition.
+- ADX_CAT_V1.2 Firmware relaese with CAT Control Functionality added.(07 April 2023)
 
 IMPORTANT NOTE ON NT7S SI5351 LIBRARY VERSIONS   
 
