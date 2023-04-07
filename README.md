@@ -8,7 +8,7 @@ ADX - Arduino Digital Modes Transceiver UPDATE (07 April 2023):
 
 - ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.(20 December 2023)
 
-- ADX_CAT_V1.2 Firmware relaese with CAT Control Functionality added.(07 April 2023)
+- ADX_CAT_V1.2 Firmware release with CAT Control Functionality added.(07 April 2023)
 
 IMPORTANT NOTE ON NT7S SI5351 LIBRARY VERSIONS   
 
