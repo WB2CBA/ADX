@@ -10,6 +10,8 @@ ADX - Arduino Digital Modes Transceiver UPDATE (08 April 2023):
 
 - ADX_CAT_V1.2 Firmware release with CAT Control Functionality added.(07 April 2023)
 
+- ADX_CAT_V1.3 Firmware with ADX FSK TX code.(08 April 2023) In some ADX rigs improved FSK TX code creates TX stream interruptions. Use firmware version whichever works on your rig.
+
 - SI5351 Module pull up resistor fix update added to Build Manual V1.4 (08 April 2023)
 
 IMPORTANT NOTE ON NT7S SI5351 LIBRARY VERSIONS   
