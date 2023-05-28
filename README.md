@@ -2,7 +2,7 @@ ADX - Arduino Digital Modes Transceiver UPDATE (28 May 2023):
 
 - Cowtown Amateur Radio Club ADX Buildathon Construction Manual added.
 
-- I can't thank enough to Richard Hastings, W5ARH/VK2ARH for putting together this detailed and extremely well put together build manual. 
+- I can't thank enough to Richard Hinsley, W5ARH/VK2ARH for putting together this detailed and extremely well put together build manual. 
 
 - ADX Build Manual V1.4 Released.
 
