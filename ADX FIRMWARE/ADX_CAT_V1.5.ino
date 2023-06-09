@@ -85,7 +85,7 @@ boolean TXSW_State = 0;
 
 unsigned long freq = 0;
 unsigned long cal_factor = 0;
-unsigned long Cal_freq = 10000000; // Calibration Frequency: 1 Mhz = 1000000 Hz
+unsigned long Cal_freq = 1000000UL; // Calibration Frequency: 1 Mhz = 1000000 Hz
 unsigned long F_FT8;
 unsigned long F_FT4;
 unsigned long F_JS8;
@@ -129,9 +129,9 @@ String sent2;
 // Supported Bands are: 80m, 40m, 30m, 20m,17m, 15m
 
 unsigned int Band1 = 40; // Band 1 // These are my default bands. Feel free to swap with yours
-unsigned int Band2 = 30; // Band 2
-unsigned int Band3 = 20; // Band 3
-unsigned int Band4 = 15; // Band 4
+unsigned int Band2 = 20; // Band 2
+unsigned int Band3 = 15; // Band 3
+unsigned int Band4 = 10; // Band 4
 
 Si5351 si5351;
 
@@ -372,7 +372,7 @@ void loop() {
         si5351.output_enable(SI5351_CLK1, 0);   // RX off
         si5351.output_enable(SI5351_CLK0, 1);   // TX on
       }
-      si5351.set_freq((freq * 100 + codefreq), SI5351_CLK0);
+      si5351.set_freq((freq * 100ULL + codefreq), SI5351_CLK0);
       if (cat_stat == 1) CAT_control();
       FSKtx = 1;
     }
@@ -384,7 +384,7 @@ void loop() {
   digitalWrite(TX,LOW);
 
   si5351.output_enable(SI5351_CLK0, 0);   // TX off
-  si5351.set_freq((freq*100), SI5351_CLK1);
+  si5351.set_freq(freq * 100ULL, SI5351_CLK1);
   si5351.output_enable(SI5351_CLK1, 1);   // RX on
   TX_State = 0;
   digitalWrite(RX,HIGH);
@@ -529,7 +529,7 @@ void ManualTX() {
   digitalWrite(RX,LOW);
   si5351.output_enable(SI5351_CLK1, 0);   // RX off
   digitalWrite(TX,HIGH);
-  si5351.set_freq((freq*100), SI5351_CLK0);
+  si5351.set_freq((freq*100ULL), SI5351_CLK0);
   si5351.output_enable(SI5351_CLK0, 1);   // TX on
   TX_State = 1;
   TXSW_State = digitalRead(TXSW);
@@ -663,7 +663,7 @@ void Calibration(){
 
   // Set CLK2 output
   si5351.set_correction(cal_factor, SI5351_PLL_INPUT_XO);
-  si5351.set_freq((Cal_freq*100), SI5351_CLK2);
+  si5351.set_freq(Cal_freq * 100ULL, SI5351_CLK2);
   si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_2MA); // Set for lower power for calibration
   si5351.set_clock_pwr(SI5351_CLK2, 1); // Enable the clock for calibration
 
