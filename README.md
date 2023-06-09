@@ -1,4 +1,4 @@
-ADX - Arduino Digital Modes Transceiver UPDATE (28 May 2023):
+ADX - Arduino Digital Modes Transceiver UPDATE (09 June 2023):
 
 - Cowtown Amateur Radio Club ADX Buildathon Construction Manual added.
 
@@ -12,7 +12,7 @@ ADX - Arduino Digital Modes Transceiver UPDATE (28 May 2023):
 
 - ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.(20 December 2022)
 
-- ADX_CAT_V1.4 Firmware release with CAT Control Functionality with minor changes. Release Date: 09 April 2023
+- ADX_CAT_V1.5 Firmware release with CAT Control serial baud rate changed to 9600 bps to address problems on TS2000  CAT control on WSJT/X (Hamlib) with 115200 bps. Also excellent code structuring and cleanup  thanks to Jorge Frede.  Release Date: 09 June 2023
 
 
 
@@ -32,7 +32,7 @@ ADX is an Arduino based Digital Modes Transceiver.
 - ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules. 
 It can work on 80m, 40m, 30m,20m, 17m, 15m and 10m bands and can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR.
 
-- ADX now supports CAT via emulating KENWOOD TS2000 HF Transceiver with 115200 bps,8,1 Serial comm. CAT controls Band and Mode changes.
+- ADX now supports CAT via emulating KENWOOD TS2000 HF Transceiver with 9600 bps,8,1 Serial comm. CAT controls Band and Mode changes.
 
 My goal with this project is to design a simple HF Transceiver optimized for operating on Digital modes:
 -	Simple to procure – meaning not effected by chip shortage
