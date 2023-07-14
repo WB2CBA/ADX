@@ -16,7 +16,9 @@ ADX - Arduino Digital Modes Transceiver UPDATE (14 July 2023):
 
 -   Firmware release with CAT Control serial baud rate changed to 9600 bps to address problems on TS2000  CAT control on WSJT/X (Hamlib) with 115200 bps. Also excellent code structuring and cleanup  thanks to Joerg Frede,DK3JF. 
 
+- I also added .hex files into ADX Firmware folder. These .hex files can be uploaded to atmega328p microcontroller via ISP port using a programmer like usbasp. 
 
+- These .hex can be used to upload ADX firmware without using Arduino ide and compiling.
 
 - SI5351 Module pull up resistor fix update added to Build Manual V1.4 (08 April 2023)
 
