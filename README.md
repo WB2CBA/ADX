@@ -12,7 +12,9 @@ ADX - Arduino Digital Modes Transceiver UPDATE (10 June 2023):
 
 - ZENER DIODE PA MOSFET PROTECTION to protect PA Mosfets from excessive SWR conditions.(20 December 2022)
 
-- ADX_CAT_V1.5 Firmware release with CAT Control serial baud rate changed to 9600 bps to address problems on TS2000  CAT control on WSJT/X (Hamlib) with 115200 bps. Also excellent code structuring and cleanup  thanks to Joerg Frede,DK3JF.  Release Date: 09 June 2023
+- ADX_CAT_V1.6 - Band display bug corrections. Release Date: 14 July 2023  I would like to thank Peter Petrov, LA7WRA and Mark Culross, KD5RXT for spotting this rather embarrasing bug on my part.
+
+-   Firmware release with CAT Control serial baud rate changed to 9600 bps to address problems on TS2000  CAT control on WSJT/X (Hamlib) with 115200 bps. Also excellent code structuring and cleanup  thanks to Joerg Frede,DK3JF. 
 
 
 
