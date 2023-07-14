@@ -1,4 +1,4 @@
-ADX - Arduino Digital Modes Transceiver UPDATE (10 June 2023):
+ADX - Arduino Digital Modes Transceiver UPDATE (14 July 2023):
 
 - Cowtown Amateur Radio Club ADX Buildathon Construction Manual added.
 
