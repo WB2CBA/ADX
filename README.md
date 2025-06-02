@@ -1,3 +1,7 @@
+ADX - Arduino Digital Modes Transceiver UPDATE (02 June 2025):
+
+FOR CAT CONTROL try using KENWOOD TS-440S or KENWOOD TS-140S. HAMLIB in WSJTX has an error in CAT Control for TS-2000 in WSJTX V2.7 or later.It doesn't work. This has nothing to do with ADX CAT Control Routine.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ADX - Arduino Digital Modes Transceiver UPDATE (14 July 2023):
 
 - Cowtown Amateur Radio Club ADX Buildathon Construction Manual added.
